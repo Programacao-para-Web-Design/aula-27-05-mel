@@ -1,57 +1,63 @@
-<!DOCTYPE html>
-<html lang="pt br">
-	<head>
-		<style>
-			.nome{
-				font-weight: bold;	
-				font-size: 17px;
-				text-align: center;
-			}
-			#devj{
-				font-style: italic;
-				font-size: 25px;
-				text-align: center;
-			}
-
-			#nomees{
-				font-size: 17px;
-				text-align: center;
-			}
-			#Body{
-				background-color: red; 
-			}
-			#Header{
-				background-color: blue; 
-			}
-			#logo{
-				background-color: white;
-			#Nav{
-				background-color: green;
-				box-shadow: 7px 7px 9px 0px black;
-			}
-			#man{
-				background-color: yellow; 
-			}
-			#ass{
-				background-color: pink; 
-			}
-			#sex{
-				background-color: purple; 
-			}
-			#art{
-				background-color: orange; 
-			}
-			#art2{
-				background-color: brown; 
-			}
-			#ass2{
-				background-color: gray; 
-			}
-			#fot{
-				background-color: maroon; 
-			}
-		</style>
-	</head>
-	<body>
-	</body>
-</html>
+body{
+  background-color: #4B0082;
+}
+main{
+  display: flex;
+}
+header{
+  text-align: center;
+  font-size: 18pt;
+}
+nav{
+  box-shadow: 20px 20px 10px;
+  text-align: center;
+  font-size: 18pt;
+  font-weight: bold;
+  background-color: #9400D3;
+  flex-direction: row;
+  justify-content: space around;
+}
+footer{
+  text-align: center;
+  font-size: 16pt;
+  font-style: italic;
+  background-color: #8B008B;
+}
+#article1{
+  background-color: purple;
+  margin: 20px 0px 20px 20px;
+  font-size: 17pt;
+  font-weight: bold;
+  width: 700px; 
+  height: 300px; 
+  text-align: center;
+}
+#article2{
+  background-color: #BA55D3;
+  margin: 20px 0px 20px 20px;
+  font-size: 17pt;
+  font-weight: bold;
+  width: 700px; 
+  height: 300px; 
+  text-align: center;
+}
+#aside1{
+  background-color: #8A2BE2;
+  font-size: 17pt;
+  font-weight: bold;
+  margin: 20px 0px 20px 20px;
+  width: 350px; 
+  height: 150px; 
+  margin-left: 150px; 
+  text-align: center;
+}
+#aside2{
+  background-color: #DA70D6;
+  margin: 20px 0px 20px 20px;
+  font-size: 17pt;
+  font-weight: bold;
+  text-align: center;
+  width: 700px;
+  height: 630px;
+  margin-top: 26px;
+}
